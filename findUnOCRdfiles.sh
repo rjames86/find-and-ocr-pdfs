@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Credit to http://www.noodlesoft.com/forums/viewtopic.php?p=3593 for idea and some of the code
+
 # Be sure to move into your Dropbox folder or something
 # before running this. You probably don't want to get every
 # PDF on your computer...or maybe you do?
