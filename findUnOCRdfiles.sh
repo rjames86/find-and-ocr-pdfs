@@ -15,7 +15,7 @@ echo "ocrFiles=[" > "$toOCR"
 
 SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
-for f in `find . -name *pdf`;
+for f in `find . -name *pdf -not -path "*/.dropbox*"`;
 do
     if ! grep -q Font "$f"
     then
